@@ -24,4 +24,6 @@ Lista_Jogos.append(jogo2)
 Lista_Jogos.append(jogo3)
 Lista_Jogos.append(jogo4)
 print(" Ola´esse sao nossos jogos: ")
-print(Lista_Jogos)
+#exibindo melhor
+for e in Lista_Jogos:
+    print(Lista_Jogos)
