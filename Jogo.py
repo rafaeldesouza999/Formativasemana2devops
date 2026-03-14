@@ -1,5 +1,5 @@
 
-# Cria  a classe jogo
+# Cria  a classe jogo.
 class Jogo:
     def __init__(self, nome, genero):
         self.nome = nome
