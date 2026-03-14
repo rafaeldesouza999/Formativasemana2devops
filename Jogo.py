@@ -13,8 +13,11 @@ Lista_Jogos = []
 # cria os jogos
 jogo1 = Jogo("the witcher 3 ", " RPG")
 jogo2 = Jogo("NFS Most Wanted", "Corrida")
+#Adiciona mais jogos
+jogo3 = Jogo(" Elden Ring", " Souls Like")
+jogo4 = Jogo("Genshin Impact", " RPG ")
 
-#adiciona jogos na lista
+# adiciona jogos na lista
 Lista_Jogos.append(jogo1)
 Lista_Jogos.append(jogo2)
 
