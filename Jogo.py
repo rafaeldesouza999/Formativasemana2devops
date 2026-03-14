@@ -20,6 +20,8 @@ jogo4 = Jogo("Genshin Impact", " RPG ")
 # adiciona jogos na lista
 Lista_Jogos.append(jogo1)
 Lista_Jogos.append(jogo2)
-
+# adiciona os outros dois jogos a lista
+Lista_Jogos.append(jogo3)
+Lista_Jogos.append(jogo4)
 print(" Ola´esse sao nossos jogos: ")
 print(Lista_Jogos)
