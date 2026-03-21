@@ -1,8 +1,9 @@
 name: Continuos Integration
 on:
   push :
-    branches:
-      - main # ou qualqer outra branch
+    pull_requests:
+    #branches:
+      #- main # ou qualqer outra branch
 jobs:
   deliver:
     runs-on: ubuntu-latest
