@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50f46b67-3f93-422e-b509-d467902bd62b" name="Changes" comment="codigo base">
-      <change afterPath="$PROJECT_DIR$/.github/worksflows/continuosdelivery.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/worksflows/continuosdelivery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/continuosdelivery.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/worksflows/continuosintegration.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/continuosintegration.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773526284118</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="codigo base">
+      <option name="closed" value="true" />
+      <created>1773963167580</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1773963167580</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
