@@ -20,7 +20,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    need: deliver
+    needs: deliver
     steps:
       - uses: actions/download-artifact@v8
         with:
