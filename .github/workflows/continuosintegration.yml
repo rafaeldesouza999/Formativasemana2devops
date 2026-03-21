@@ -2,7 +2,7 @@ name: Continuos Integration
 on:
   pull_request:
     branches:
-      - main
+      - criacao--ci
 jobs:
   build:
     runs-on: ubuntu-latest
