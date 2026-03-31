@@ -28,6 +28,6 @@ print("Olá esses são nossos jogos: ")
 def mostrajogo():
         for Jogo in Lista_Jogos:
             print(Jogo)
-        print("Essa é nossa lista de jogos atualiuzada !")
+        print("Essa é nossa lista de jogos atualizada !")
 
 
