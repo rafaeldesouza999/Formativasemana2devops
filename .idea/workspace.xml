@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f46b67-3f93-422e-b509-d467902bd62b" name="Changes" comment="codigo base" />
+    <list default="true" id="50f46b67-3f93-422e-b509-d467902bd62b" name="Changes" comment="codigo base">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Formativasemana2devops.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Formativasemana2devops.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jogo.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="main" />
       </list>
     </option>
   </component>
@@ -37,17 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Jogo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;criacao--ci&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rafael/Downloads/estudos-01/Formativasemana2devops&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Jogo.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "criacao--ci",
+    "last_opened_file_path": "C:/Users/rafael/Downloads/estudos-01/Formativasemana2devops"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rafael\Downloads\estudos-01\Formativasemana2devops" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rafael\Downloads\estudos-01\Formativasemana2devops" />
     </key>
   </component>
@@ -155,7 +167,31 @@
       <option name="project" value="LOCAL" />
       <updated>1774122498663</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="codigo base">
+      <option name="closed" value="true" />
+      <created>1774122838531</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1774122838531</updated>
+    </task>
+    <task id="LOCAL-00013" summary="codigo base">
+      <option name="closed" value="true" />
+      <created>1774122845791</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1774122845791</updated>
+    </task>
+    <task id="LOCAL-00014" summary="codigo base">
+      <option name="closed" value="true" />
+      <created>1774123164606</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1774123164606</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
