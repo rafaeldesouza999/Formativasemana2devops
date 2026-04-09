@@ -25,9 +25,12 @@ Lista_Jogos.append(jogo3)
 Lista_Jogos.append(jogo4)
 print("Olá esses são nossos jogos: ")
 #exibindo melhor
-def mostrajogo():
-        for Jogo in Lista_Jogos:
-            print(Jogo)
-        print("Essa é nossa lista de jogos atualizada !")
 
+
+
+def mostrajogo():
+    return [{"Nome ": Jogo.nome,"Gênero " : Jogo.genero}for Jogo in Lista_Jogos]
+
+
+print(mostrajogo())
 

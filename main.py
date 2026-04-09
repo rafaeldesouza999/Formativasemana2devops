@@ -5,6 +5,6 @@ from Jogo import mostrajogo
 app = FastAPI()
 
 
-@app.get("/")
-async def root():
-    return {mostrajogo()}
+@app.get("/Jogos")
+def get_jogos():
+    return mostrajogo()
