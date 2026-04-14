@@ -3,7 +3,7 @@ from src.Jogo import *
 from unittest.mock import patch
 
 from fastapi.testclient import TestClient
-from main import app
+from src.main import app
 
 client = TestClient(app)
 
