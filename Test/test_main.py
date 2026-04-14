@@ -1,9 +1,9 @@
-from src.main import *
-from src.Jogo import *
-from unittest.mock import patch
-
 from fastapi.testclient import TestClient
 from src.main import app
+import sys
+import os
+sys.path.append(os.path.abspath("src"))
+
 
 client = TestClient(app)
 
