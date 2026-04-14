@@ -8,7 +8,7 @@ from src.main import app
 client = TestClient(app)
 
 #Testa se retorna a lista
-def test_Lista_Jogos():
+def test_lista_jogos():
     response = client.get("/jogos")
     assert response.status_code == 200
 
@@ -19,11 +19,11 @@ def test_quantidade_jogos():
     assert len(data) == 3
 
 #Testa se contem o jogo específico
-def test_contem_theWitcher3():
+def test_contem_thewitcher3():
     response = client.get("/jogos")
     data = response.json()
     nomes=[j["nome"] for j in data]
-    assert "the wicther 3 " in nomes
+    assert "The Witcher 3 " in nomes
 
 #Testa a estrutura do objeto Jogo
 def test_estrutura_jogo():
