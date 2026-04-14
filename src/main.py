@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from Jogo import mostrajogo
+from src.Jogo import mostrajogo
 
 #Teste01
 app = FastAPI()

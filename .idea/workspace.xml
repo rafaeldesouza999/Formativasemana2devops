@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50f46b67-3f93-422e-b509-d467902bd62b" name="Changes" comment="codigo base">
+      <change afterPath="$PROJECT_DIR$/Test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/continuosintegration.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/continuosintegration.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +19,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="main" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="criacao--ci" />
+        <entry key="$PROJECT_DIR$" value="Teste-Discord" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,9 +48,10 @@
   "keyToString": {
     "Python.Jogo.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Teste-Discord",
+    "git-widget-placeholder": "Testando-Teste",
     "last_opened_file_path": "C:/Users/rafael/Downloads/estudos-01/Formativasemana2devops"
   }
 }]]></component>
@@ -56,6 +60,7 @@
       <recent name="C:\Users\rafael\Downloads\estudos-01\Formativasemana2devops" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rafael\Downloads\estudos-01\Formativasemana2devops\src" />
       <recent name="C:\Users\rafael\Downloads\estudos-01\Formativasemana2devops" />
     </key>
   </component>
@@ -299,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775695663335</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="codigo base">
+      <option name="closed" value="true" />
+      <created>1775864538503</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1775864538503</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

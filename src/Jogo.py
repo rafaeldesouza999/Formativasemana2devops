@@ -1,11 +1,17 @@
 
-# Cria  a classe jogo.
+
 class Jogo:
     def __init__(self, nome, genero):
         self.nome = nome
         self.genero = genero
     def __repr__(self):
         return f"{self.nome} {self.genero}"
+
+
+def get_jogos():
+    return mostrajogo()
+
+# Cria  a classe jogo.
 
 # Cria lista de carros
 Lista_Jogos = []
