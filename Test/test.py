@@ -19,14 +19,14 @@ def test_quantidade_jogos():
     assert len(data) == 3
 
 #Testa se contem o jogo específico
-def Testar_contem_theWitcher3():
+def test_contem_theWitcher3():
     response = client.get("/jogos")
     data = response.json()
     nomes=[j["nome"] for j in data]
     assert "the wicther 3 " in nomes
 
 #Testa a estrutura do objeto Jogo
-def teste_estrutura_jogo():
+def test_estrutura_jogo():
     response = client.get("/jogos")
     data = response.json()
     assert "id" in data[0]
