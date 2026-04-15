@@ -1,16 +1,30 @@
+
 name: Continuos Integration
 on:
+  push:
   pull_request:
-    branches:
-      - criacao--ci
+    #branches:
+      #- criacao--ci
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository code
         uses: actions/checkout@v5
 
-      - name: Python Lint Code Scanning Action
-        uses: advanced-security/python-lint-code-scanning-action@v1.1.1
-        with:
-          linter: pylint
+      #- name: Python Lint Code Scanning Action
+        #uses: advanced-security/python-lint-code-scanning-action@v1.1.1
+       # with:
+          #linter: pylint
+
+      - name: Instalar dependencias
+        run:   |
+          pip install -r requirements.txt
+          pip install pytest
+          pip install httpx
+
+      - name: Rodar testes
+        run: pytest -v
+        env:
+          PYTHONPATH: ${{ github.workspace }}
