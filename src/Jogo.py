@@ -1,7 +1,7 @@
 
 
 class Jogo:
-    def __init__(self,ID,  nome, genero):
+    def __init__(self,ID, nome, genero):
         self.idjogo = ID
         self.nome = nome
         self.genero = genero
