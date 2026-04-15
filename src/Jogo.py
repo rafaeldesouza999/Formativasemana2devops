@@ -36,7 +36,10 @@ print("Olá esses são nossos jogos: ")
 
 
 def mostrajogo():
-    return [{"ID": Jogo.idjogo, "Nome ": Jogo.nome,"Gênero " : Jogo.genero}for Jogo in Lista_Jogos]
+    return [{"ID": Jogo.idjogo,
+             "nome": Jogo.nome,
+             "genero " : Jogo.genero}
+            for Jogo in Lista_Jogos]
 
 
 print(mostrajogo())
