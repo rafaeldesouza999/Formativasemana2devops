@@ -22,7 +22,7 @@ def test_quantidade_jogos():
 def test_contem_thewitcher3():
     response = client.get("/Jogos")
     data = response.json()
-    nomes=[j["nome"] for j in data]
+    nomes=[j["Nome"] for j in data]
     assert "The Witcher 3" in nomes
 
 #Testa a estrutura do objeto Jogo
@@ -30,7 +30,7 @@ def test_estrutura_jogo():
     response = client.get("/Jogos")
     data = response.json()
     assert "ID" in data[0]
-    assert "nome" in data[0]
+    assert "Nome" in data[0]
 
 #Testa o endpoint inválido
 def test_rota_invalida():
