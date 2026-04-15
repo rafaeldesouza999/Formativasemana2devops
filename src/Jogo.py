@@ -18,11 +18,11 @@ def get_jogos():
 Lista_Jogos = []
 
 # cria os jogos
-jogo1 = Jogo(1,"The Witcher 3 ", " RPG")
+jogo1 = Jogo(1,"The Witcher 3", " RPG")
 jogo2 = Jogo(2,"NFS Most Wanted", "Corrida")
 #Adiciona mais jogos
-jogo3 = Jogo(3,"Elden Ring", " Souls Like")
-jogo4 = Jogo(4,"Genshin Impact", " RPG ")
+jogo3 = Jogo(3,"Elden Ring", "Souls Like")
+jogo4 = Jogo(4,"Genshin Impact", " RPG")
 
 # adiciona jogos na lista
 Lista_Jogos.append(jogo1)
